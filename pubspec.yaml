@@ -38,6 +38,7 @@ dependencies:
   shared_preferences: ^2.0.13
   iconly: ^1.0.1
   dotted_border: ^2.0.0+2
+  image_picker: ^0.8.7
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/groceries.png
+    - assets/images/fruits.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

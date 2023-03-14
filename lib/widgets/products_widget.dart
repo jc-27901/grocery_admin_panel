@@ -38,8 +38,8 @@ class _ProductWidgetState extends State<ProductWidget> {
                   children: [
                     Flexible(
                       flex: 3,
-                      child: Image.network(
-                        'https://www.lifepng.com/wp-content/uploads/2020/11/Apricot-Large-Single-png-hd.png',
+                      child: Image.asset(
+                        'assets/images/groceries.png',
                         fit: BoxFit.fill,
                         // width: screenWidth * 0.12,
                         height: size.width * 0.12,
